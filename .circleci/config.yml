@@ -11,7 +11,7 @@ _defaults: &defaults
     # documented at https://circleci.com/developer/images/image/cimg/python
     - image: cimg/python:3.11.10
   working_directory: ~/repo
-
+   # CircleCI maintains a library of pre-built images
 
 jobs:
   build:
